@@ -9,7 +9,9 @@
 ## Files
 
 - **[WRITEUP.md](WRITEUP.md):** Answers to the five questions.
-- **[diagram/process-flow.png](diagram/process-flow.png):** Shows the process from file upload to ranked results, including AI steps, rule-based steps, and human checkpoints.
+- **Process Flow Diagram:** Shows the process from file upload to ranked results, including AI steps, rule-based steps, and human checkpoints.
+
+![Process Flow Diagram](diagram/process-flow.png)
 - **[PROMPTS.md](PROMPTS.md):** Contains the prompts used for extraction and reasoning.
 - **[ranking.json](ranking.json):** Contains the expected ranking of proposals A-E.
 - **[prototype/](prototype/):** Contains a small scoring script that runs using `python score.py extracted.json`. The AI step is represented by the saved `extracted.json` file, so no API key is needed.

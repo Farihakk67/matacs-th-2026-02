@@ -33,4 +33,3 @@
 # 
 
 # One example where I reviewed the AI’s work critically: its scoring script normalised price and timeline against flagged proposals too, so a proposal not yet cleared by a human could shift everyone else’s scores. I noted this as a limitation, and in a real system I would normalise only against eligible, human-cleared proposals.
-
